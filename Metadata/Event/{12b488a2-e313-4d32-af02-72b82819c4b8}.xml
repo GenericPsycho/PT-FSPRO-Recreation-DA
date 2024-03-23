@@ -178,7 +178,7 @@
 	</object>
 	<object class="SingleSound" id="{e918b3fa-9e66-4a00-8b45-79cd370ba6a7}">
 		<property name="length">
-			<value>114</value>
+			<value>111.94</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.065781878110643066</value>
@@ -234,10 +234,10 @@
 	</object>
 	<object class="LoopRegion" id="{30bb2ee6-bfc6-4179-a35d-38ccdfbb22cc}">
 		<property name="position">
-			<value>0</value>
+			<value>7.3406917077175686</value>
 		</property>
 		<property name="length">
-			<value>112</value>
+			<value>104.59930829228243</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{392f5d8f-ad6b-4658-a348-2edfeeb9e24d}</destination>
@@ -273,10 +273,10 @@
 	</object>
 	<object class="LoopRegion" id="{a63a4db5-f18a-4a0b-82ae-946a1222b0a8}">
 		<property name="position">
-			<value>120</value>
+			<value>114</value>
 		</property>
 		<property name="length">
-			<value>152</value>
+			<value>159.99999999999972</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{392f5d8f-ad6b-4658-a348-2edfeeb9e24d}</destination>
@@ -290,7 +290,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>112</value>
+			<value>111.94</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -316,7 +316,7 @@
 			<value>114</value>
 		</property>
 		<property name="length">
-			<value>158</value>
+			<value>160</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -342,7 +342,7 @@
 			<value>114</value>
 		</property>
 		<property name="length">
-			<value>157</value>
+			<value>160</value>
 		</property>
 		<property name="name">
 			<value>B</value>

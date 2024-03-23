@@ -327,7 +327,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>168.82494210716561</value>
+			<value>153.60000000000002</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5af81c40-c4cf-434d-bd84-3d092e8a952f}</destination>
@@ -355,10 +355,10 @@
 	</object>
 	<object class="LoopRegion" id="{b822079f-3e34-454d-af54-e962bee7ec2a}">
 		<property name="position">
-			<value>346.61925478668195</value>
+			<value>355</value>
 		</property>
 		<property name="length">
-			<value>63.157894736842138</value>
+			<value>51.660000000000025</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5af81c40-c4cf-434d-bd84-3d092e8a952f}</destination>

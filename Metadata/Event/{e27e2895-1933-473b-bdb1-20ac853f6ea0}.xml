@@ -37,6 +37,10 @@
 		<relationship name="timeline">
 			<destination>{2a1ef1f8-120a-44a6-9eaf-0fd2cbffcd26}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{f27beb4b-330c-4c53-a469-0fb7135878ac}</destination>
+			<destination>{1bca3651-afd1-4160-8a68-0d95145b5828}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{16de4e46-bce0-4a42-a53f-ebfb0a6d79b0}</destination>
 		</relationship>
@@ -97,6 +101,16 @@
 			<destination>{6b123e26-57b5-40ec-962f-17b392ec9993}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{f27beb4b-330c-4c53-a469-0fb7135878ac}">
+		<relationship name="preset">
+			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{1bca3651-afd1-4160-8a68-0d95145b5828}">
+		<relationship name="preset">
+			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{e2b83516-d49c-4de1-8d1a-2931a69241d8}">
 		<relationship name="modulators">
 			<destination>{0f7ffab6-859d-4dce-af97-50463ba07240}</destination>
@@ -148,7 +162,7 @@
 	</object>
 	<object class="SingleSound" id="{d419dfb3-1245-4ecc-9599-217982d9c12f}">
 		<property name="length">
-			<value>140.59033928571429</value>
+			<value>133.58999999999997</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.026785714285714284</value>
@@ -165,8 +179,11 @@
 			<value>148.5</value>
 		</property>
 		<property name="length">
-			<value>138.18181250000001</value>
+			<value>137.17320000000004</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{5196b68e-9178-450c-9a89-6ca7102cbf98}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{26d46c66-bddc-40dd-96d2-77e9ffe6005d}</destination>
 		</relationship>
@@ -187,10 +204,10 @@
 	</object>
 	<object class="LoopRegion" id="{ce9edc4a-50a2-44fa-abe6-b4ff8944a22a}">
 		<property name="position">
-			<value>0</value>
+			<value>13.600000000000001</value>
 		</property>
 		<property name="length">
-			<value>133.71428571428572</value>
+			<value>119.98999999999998</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{2a1ef1f8-120a-44a6-9eaf-0fd2cbffcd26}</destination>
@@ -253,10 +270,10 @@
 	</object>
 	<object class="LoopRegion" id="{6b123e26-57b5-40ec-962f-17b392ec9993}">
 		<property name="position">
-			<value>155.54566016148624</value>
+			<value>149.17320000000001</value>
 		</property>
 		<property name="length">
-			<value>131.13491324847973</value>
+			<value>136.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{2a1ef1f8-120a-44a6-9eaf-0fd2cbffcd26}</destination>
@@ -312,6 +329,14 @@
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{22aa6386-f10b-4cc5-96ec-8f129a47fd6b}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{5196b68e-9178-450c-9a89-6ca7102cbf98}">
+		<relationship name="startPoint">
+			<destination>{72c14817-6e58-4166-ab41-156c696e9a35}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{4a0de0fa-3f9a-4cda-93b0-a477dd86ea12}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{3644f272-5e77-4cb8-be45-577277635494}">
@@ -390,6 +415,25 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{72c14817-6e58-4166-ab41-156c696e9a35}">
+		<property name="position">
+			<value>148.5</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4a0de0fa-3f9a-4cda-93b0-a477dd86ea12}">
+		<property name="position">
+			<value>149.17320000000001</value>
+		</property>
+		<property name="value">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5bfcae35-12d7-454d-a2e4-9eb1623cbbd3}" />

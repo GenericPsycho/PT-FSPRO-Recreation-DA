@@ -69,6 +69,7 @@
 		</relationship>
 		<relationship name="modules">
 			<destination>{28c27a5b-5766-4d6e-b59e-aad93d70ce9a}</destination>
+			<destination>{39cb01c5-757c-4e37-a17e-9b3f6c570639}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c6cf47fc-bab3-4942-8ad3-1a07d2f4fac6}</destination>
@@ -86,9 +87,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{035300ec-73c0-40b2-8b98-bd595d0c747c}">
-		<relationship name="modules">
-			<destination>{39cb01c5-757c-4e37-a17e-9b3f6c570639}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ec0a1bd2-5a06-4012-859a-e97f5fddb075}</destination>
 		</relationship>
@@ -132,10 +130,22 @@
 	</object>
 	<object class="SingleSound" id="{28c27a5b-5766-4d6e-b59e-aad93d70ce9a}">
 		<property name="length">
-			<value>178</value>
+			<value>213.98099999999999</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{67966a67-9948-4fee-86a0-7d4e7ce40174}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{39cb01c5-757c-4e37-a17e-9b3f6c570639}">
+		<property name="start">
+			<value>320</value>
+		</property>
+		<property name="length">
+			<value>644</value>
+		</property>
+		<property name="name" />
+		<relationship name="commandTarget">
+			<destination>{93bf09ff-05bf-4893-9f5d-225493b52b28}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c6cf47fc-bab3-4942-8ad3-1a07d2f4fac6}">
@@ -162,7 +172,7 @@
 	</object>
 	<object class="SingleSound" id="{9b902a53-5adc-4d9f-9a05-6ce84a2e7baf}">
 		<property name="length">
-			<value>232.96522916666666</value>
+			<value>195.673</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{001c5e35-6fd5-45e0-855a-f598d17a927c}</destination>
@@ -185,17 +195,6 @@
 			<destination>{77fcf996-bb11-4248-aad1-3261c4bbbf01}</destination>
 		</relationship>
 	</object>
-	<object class="CommandSound" id="{39cb01c5-757c-4e37-a17e-9b3f6c570639}">
-		<property name="start">
-			<value>520</value>
-		</property>
-		<property name="length">
-			<value>644</value>
-		</property>
-		<relationship name="commandTarget">
-			<destination>{93bf09ff-05bf-4893-9f5d-225493b52b28}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{ec0a1bd2-5a06-4012-859a-e97f5fddb075}">
 		<property name="name">
 			<value>Medley</value>
@@ -212,7 +211,7 @@
 	</object>
 	<object class="NamedMarker" id="{2c7ae9d4-0090-417a-8148-f783981b6517}">
 		<property name="position">
-			<value>520</value>
+			<value>320</value>
 		</property>
 		<property name="name">
 			<value>Medley</value>
@@ -226,7 +225,7 @@
 	</object>
 	<object class="TransitionMarker" id="{c90d7a12-15d6-4dec-bd46-3b7c09ceae61}">
 		<property name="position">
-			<value>178</value>
+			<value>213.98099999999999</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{28f8cbef-252e-4870-92ef-0db590f90b8d}</destination>
@@ -243,7 +242,7 @@
 	</object>
 	<object class="TransitionMarker" id="{1db444c8-7314-4d44-aff3-9337755209e5}">
 		<property name="position">
-			<value>232.96522916666666</value>
+			<value>195.673</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{28f8cbef-252e-4870-92ef-0db590f90b8d}</destination>
