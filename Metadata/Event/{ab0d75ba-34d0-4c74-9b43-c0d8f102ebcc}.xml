@@ -69,7 +69,6 @@
 		</relationship>
 		<relationship name="modules">
 			<destination>{28c27a5b-5766-4d6e-b59e-aad93d70ce9a}</destination>
-			<destination>{39cb01c5-757c-4e37-a17e-9b3f6c570639}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c6cf47fc-bab3-4942-8ad3-1a07d2f4fac6}</destination>
@@ -81,6 +80,7 @@
 		</relationship>
 		<relationship name="modules">
 			<destination>{9b902a53-5adc-4d9f-9a05-6ce84a2e7baf}</destination>
+			<destination>{39cb01c5-757c-4e37-a17e-9b3f6c570639}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fd1055b9-93d0-464c-b557-af39fe2129f8}</destination>
@@ -136,18 +136,6 @@
 			<destination>{67966a67-9948-4fee-86a0-7d4e7ce40174}</destination>
 		</relationship>
 	</object>
-	<object class="CommandSound" id="{39cb01c5-757c-4e37-a17e-9b3f6c570639}">
-		<property name="start">
-			<value>320</value>
-		</property>
-		<property name="length">
-			<value>644</value>
-		</property>
-		<property name="name" />
-		<relationship name="commandTarget">
-			<destination>{93bf09ff-05bf-4893-9f5d-225493b52b28}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{c6cf47fc-bab3-4942-8ad3-1a07d2f4fac6}">
 		<property name="name">
 			<value>Peppino</value>
@@ -176,6 +164,17 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{001c5e35-6fd5-45e0-855a-f598d17a927c}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{39cb01c5-757c-4e37-a17e-9b3f6c570639}">
+		<property name="start">
+			<value>320</value>
+		</property>
+		<property name="length">
+			<value>644</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{93bf09ff-05bf-4893-9f5d-225493b52b28}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fd1055b9-93d0-464c-b557-af39fe2129f8}">
