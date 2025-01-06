@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{73a89486-725d-455d-953a-239b726c6c05}">
 		<property name="assetPath">
-			<value>music/Secret_Lockin_v1a.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Shitpost_Medley.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>381.30839583333335</value>
+			<value>358.86537414965989</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

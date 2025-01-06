@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{19480a5d-ee08-4d59-8174-531301dbfb6d}">
 		<property name="assetPath">
-			<value>music/mu_forest.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Come_To_My_Back_Garden.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>208.93993750000001</value>
+			<value>241.38943310657595</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

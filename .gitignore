@@ -11,5 +11,12 @@ private
 [Mm]etadata/Workspace.xml
 [Aa]ssets/music
 [Aa]ssets/sfx
+[Aa]ssets/Master
+[Aa]ssets/Master.strings
+[Aa]ssets/modded-music
+[Aa]ssets/modded-sfx
 [Aa]ssets/ost
 [Bb]uild
+
+Build
+Assets

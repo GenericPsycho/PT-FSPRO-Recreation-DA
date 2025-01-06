@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ccf2cc5c-053c-4c5e-bd8f-d66ed0670710}">
 		<property name="assetPath">
-			<value>music/DISTASTEFUL_ANCHOVI_JC_RE-EDIT_v5c.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Shot_Down_By_The_Mirror.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>205.54270833333334</value>
+			<value>207.18269841269841</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

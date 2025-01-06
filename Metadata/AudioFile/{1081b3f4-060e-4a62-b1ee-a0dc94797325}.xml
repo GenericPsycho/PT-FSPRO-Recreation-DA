@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1081b3f4-060e-4a62-b1ee-a0dc94797325}">
 		<property name="assetPath">
-			<value>music/Pizza_Tower_OST_-_Tunnely_Shimbers.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Moving_Up_In_The_World.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>240.84897916666668</value>
+			<value>190.42789115646258</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

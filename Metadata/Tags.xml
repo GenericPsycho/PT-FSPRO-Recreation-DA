@@ -11,6 +11,8 @@
 			<destination>{bbe390a9-e18f-4195-a0f9-7af30bfb48ca}</destination>
 			<destination>{5387dc49-f89e-498d-8789-f5ad04eadfd9}</destination>
 			<destination>{095bde4b-8e8e-468a-a3d2-acb9c75c8d0e}</destination>
+			<destination>{0b0a5428-e401-4464-8bf4-60e8791a4bfe}</destination>
+			<destination>{8ea21d92-4e25-424b-b479-c1221ae55357}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{efb10652-a274-4514-bb59-37d938e37666}">
@@ -44,6 +46,16 @@
 	<object class="Tag" id="{095bde4b-8e8e-468a-a3d2-acb9c75c8d0e}">
 		<property name="name">
 			<value>world</value>
+		</property>
+	</object>
+	<object class="Tag" id="{0b0a5428-e401-4464-8bf4-60e8791a4bfe}">
+		<property name="name">
+			<value>wo</value>
+		</property>
+	</object>
+	<object class="Tag" id="{8ea21d92-4e25-424b-b479-c1221ae55357}">
+		<property name="name">
+			<value>sfx</value>
 		</property>
 	</object>
 </objects>

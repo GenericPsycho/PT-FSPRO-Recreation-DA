@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e4e1eea2-5dcb-4825-a696-80bfd0a85774}">
+		<property name="name">
+			<value>inflap</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ebd80d4a-6c3c-468b-883d-cc9e4f67e374}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2fd48734-f44d-40dc-ae2e-210cee28d7ed}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2fd48734-f44d-40dc-ae2e-210cee28d7ed}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>21</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

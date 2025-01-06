@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7704aecc-2671-4122-984d-3db36966b4f6}">
 		<property name="assetPath">
-			<value>music/CHASE_THEME_LOOP.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Parasite_Loop.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>17.684895833333332</value>
+			<value>33.620181405895693</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

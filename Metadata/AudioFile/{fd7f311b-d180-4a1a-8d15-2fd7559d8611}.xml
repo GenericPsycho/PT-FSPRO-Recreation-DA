@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{fd7f311b-d180-4a1a-8d15-2fd7559d8611}">
 		<property name="assetPath">
-			<value>music/mu_chase.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Brace_For_The_Freight_Train.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>176.90120833333333</value>
+			<value>154.61056689342405</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

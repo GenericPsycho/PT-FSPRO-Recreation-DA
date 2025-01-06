@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{4446283b-766f-450f-8852-f0b0f1b6ce16}">
 		<property name="assetPath">
-			<value>music/Pizza_Tower_OST_-_Cold_Spaghetti.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Build_Our_Machine_Rock.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>169.16897916666667</value>
+			<value>163.01442176870748</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>

@@ -2,19 +2,19 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5278c728-f3ec-4e29-a935-3a872e18cfc6}">
 		<property name="assetPath">
-			<value>music/pt_scary_ambient_draft_1.wav</value>
+			<value>modded-music/Pizza_Tower_DAMod_-_Dovah.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>158.55856249999999</value>
+			<value>158.61056689342405</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>
